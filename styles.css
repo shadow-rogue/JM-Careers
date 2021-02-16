@@ -1,0 +1,51 @@
+#findjobs {
+    font-size: 35px; 
+    font-weight: bold;
+    margin-left: 20%;
+    padding: 5px;
+}
+
+.search-bar {
+    display: inline-block;
+	position: relative;
+    margin: 0 auto;
+    width: 150%;
+    max-width: 500px;
+    height: 48px;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+input {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 350px;
+    height: 40px;
+    left: 180px;
+    margin: 4px 0;
+    border: 0;
+    border-radius: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container {
+    margin: 50px 200px 50px;
+}
+
+.carousel {
+    margin: 50px 0px 50px;
+}
+
+.card {
+    
+}
+
+.jobopen {
+    margin: 30px 40px 30px;
+}
