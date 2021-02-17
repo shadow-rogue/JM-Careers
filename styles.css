@@ -43,11 +43,12 @@ input {
 }
 
 .card {
+    margin: auto;
     
 }
 
 .jobopen {
-    margin: 30px 40px 30px;
+    margin: 30px 0px 30px;
 }
 
 .card-title {
@@ -63,3 +64,12 @@ input {
     margin: 0px 70px 0px;
 }
 
+#founder {
+    padding: 100px 0px 100px;
+}
+
+#deepanshu {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
