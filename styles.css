@@ -34,8 +34,8 @@ input {
     font-weight: 400;
 }
 
-.container {
-    margin: 50px 200px 50px;
+.container-custom {
+    margin: 50px 100px 50px;
 }
 
 .carousel {
@@ -49,3 +49,17 @@ input {
 .jobopen {
     margin: 30px 40px 30px;
 }
+
+.card-title {
+    text-align: center;
+
+}
+
+.card-text {
+    text-align: center;
+
+}
+.btn {
+    margin: 0px 70px 0px;
+}
+
