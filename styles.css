@@ -1,50 +1,50 @@
 #findjobs {
-    font-size: 35px; 
-    font-weight: bold;
-    margin-left: 20%;
-    padding: 5px;
+  font-size: 35px;
+  font-weight: bold;
+  margin-left: 20%;
+  padding: 5px;
 }
 
 .search-bar {
-    display: inline-block;
-	position: relative;
-    margin: 0 auto;
-    width: 150%;
-    max-width: 500px;
-    height: 48px;
-    background: #fff;
-    border-radius: 2px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
-    overflow: hidden;
+  display: inline-block;
+  position: relative;
+  margin: 0 auto;
+  width: 150%;
+  max-width: 500px;
+  height: 48px;
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
 }
 
 input {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 350px;
-    height: 40px;
-    left: 180px;
-    margin: 4px 0;
-    border: 0;
-    border-radius: 0;
-    outline: 0;
-    box-sizing: border-box;
-    font-size: 16px;
-    font-weight: 400;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 350px;
+  height: 40px;
+  left: 180px;
+  margin: 4px 0;
+  border: 0;
+  border-radius: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 400;
 }
-
+.container {
+  margin: 50px 200px 50px;
 .container-custom {
     margin: 50px 100px 50px;
 }
 
 .carousel {
-    margin: 50px 0px 50px;
+  margin: 50px 0px 50px;
 }
 
 .card {
-    margin: auto;
-    
+    margin: auto;    
 }
 
 .jobopen {
@@ -73,3 +73,184 @@ input {
     width: 300px;
     height: 300px;
 }
+/*  style for the footer */
+
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,700");
+
+/* The footer is fixed to the bottom of the page */
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+@media (max-height: 800px) {
+  footer {
+    position: static;
+  }
+}
+
+.footer-distributed {
+  background-color: #26272b;
+  box-sizing: border-box;
+  width: 100%;
+  /* text-align: right; */
+  font: bold 16px sans-serif;
+  padding: 20px 50px 60px 50px;
+  margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+  width: 40%;
+  margin-right: 30px;
+  text-align: right;
+}
+
+.footer-distributed h3 {
+  color: #5c5a5a;
+  font: normal 36px "Cookie", cursive;
+  margin: 0;
+}
+
+/* The company logo */
+
+.footer-distributed .footer-left img {
+  width: 16%;
+}
+
+.footer-distributed h3 span {
+  color: #fa0909;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-company-name {
+  color: #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+  width: 50%;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.footer-distributed .footer-center i {
+  background-color: #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+  display: inline-block;
+  color: #8f9296;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+  color: #ca0c0c;
+  text-decoration: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.footer-distributed .footer-icons a {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 50%;
+
+  font-size: 36px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 60px;
+
+  margin-right: 40px;
+  margin-bottom: 10px;
+}
+
+.footer-icons a:active,
+.footer-icons a:focus,
+.footer-icons a:hover {
+  color: #fff;
+  background-color: #29aafe;
+}
+.footer-icons a.facebook:hover {
+  background-color: #3b5998;
+}
+.footer-icons a.twitter:hover {
+  background-color: #00aced;
+}
+.footer-icons a.linkedin:hover {
+  background-color: #007bb6;
+}
+.footer-icons a.instagram:hover {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+.footer-icons a.google:hover {
+  background-color: #4285f4;
+}
+
+/* Here is the code for Responsive Footer */
+/* You can remove below code if you don't want Footer to be responsive */
+
+@media (max-width: 880px) {
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i {
+    margin-left: 0;
+  }
