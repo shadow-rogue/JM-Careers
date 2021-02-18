@@ -33,9 +33,10 @@ input {
   font-size: 16px;
   font-weight: 400;
 }
-
 .container {
   margin: 50px 200px 50px;
+.container-custom {
+    margin: 50px 100px 50px;
 }
 
 .carousel {
@@ -43,12 +44,35 @@ input {
 }
 
 .card {
+    margin: auto;    
 }
 
 .jobopen {
-  margin: 30px 40px 30px;
+    margin: 30px 0px 30px;
 }
 
+.card-title {
+    text-align: center;
+
+}
+
+.card-text {
+    text-align: center;
+
+}
+.btn {
+    margin: 0px 70px 0px;
+}
+
+#founder {
+    padding: 100px 0px 100px;
+}
+
+#deepanshu {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
 /*  style for the footer */
 
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,700");
@@ -230,4 +254,3 @@ footer {
   .footer-distributed .footer-center i {
     margin-left: 0;
   }
-}
