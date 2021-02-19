@@ -1,0 +1,137 @@
+@media screen and (min-width: 944px)
+{
+  .careers-heading
+  {
+  margin: auto;
+  }
+}
+#apply
+{
+    position: relative;
+    padding: 5px 20px;
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+    font-size: 25px;
+    text-decoration: none;
+    color: #fff;
+    background: #fc0505;
+    border-radius: 5px;
+}
+#clicktoapply
+{
+    position: relative;
+    padding: 5px 20px;
+    display: inline-block;
+    margin-top: auto;
+    text-decoration: none;
+    color: #fff;
+    background: #111;
+}
+#job1{
+  position: relative;
+  padding: 20px 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+#apply2
+{
+  padding: 5px 20px;
+  margin-top: 20%;
+  margin-left: 30%;
+  position: relative;
+  display: inline-block;
+  width: 90px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  background: #fc0505;
+  border-radius: 5px;
+}
+#hiring1
+{
+  color: #000;
+}
+.G-D
+{
+  width: 700px ;
+  margin-left: auto ;
+  margin-right: auto ;
+  padding: 5px 20px;
+  border:1px solid black;
+  border-radius: 15px;
+}
+.G-D::after
+{
+  right: 0%;
+  background-color:	#D3D3D3;
+}
+.G-D::before
+{
+  left: 0%;
+  background-color:#D3D3D3;
+}
+.G-D::after, .G-D::before
+{
+    height:950px;
+    content:' ';
+    position: absolute;
+    top: 0;
+    width: 21%;
+}
+.D-M
+{
+  width: 700px ;
+  margin-left: auto ;
+  margin-right: auto ;
+  padding: 5px 20px;
+  border:1px solid black;
+  border-radius: 15px;
+}
+.D-M::after
+{
+  right: 0%;
+  background-color:	#D3D3D3;
+}
+.D-M::before
+{
+  left: 0%;
+  background-color:#D3D3D3;
+}
+.D-M::after, .D-M::before
+{
+    height:820px;
+    content:' ';
+    position: absolute;
+    top: 0;
+    width: 21%;
+}
+.W-D
+{
+  width: 700px ;
+  margin-left: auto ;
+  margin-right: auto ;
+  padding: 5px 20px;
+  border:1px solid black;
+  border-radius: 15px;
+}
+.W-D::after
+{
+  right: 0%;
+  background-color:	#D3D3D3;
+}
+.W-D::before
+{
+  left: 0%;
+  background-color:#D3D3D3;
+}
+.W-D::after, .W-D::before
+{
+    height:1050px;
+    content:' ';
+    position: absolute;
+    top: 0;
+    width: 21%;
+}

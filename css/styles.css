@@ -1,0 +1,279 @@
+
+/* title section  */
+
+@media screen and (min-width: 944px)
+{
+    .search-bar {
+        display: inline-block;
+        position: relative;
+        margin: 0px 15% 0px;
+        width: 150%;
+        max-width: 70%;
+        height: 48px;
+        background: #fff;
+        border-radius: 2px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+        overflow: hidden;
+
+    }
+
+    .careers-heading {
+        margin: auto;
+    }
+
+}
+
+@media screen and (min-width: 944px)
+{
+    .findjobs {
+        font-size: 200%; 
+        font-weight: bold;
+        margin-left: 20%;
+        padding: 5px;
+    }
+
+}
+
+@media screen and (max-width: 943px)
+{
+.findjobs {
+    font-size: 150%; 
+    font-weight: bold;
+    margin-left: 20%;
+    padding: 5px;
+}
+
+.search-bar {
+    /* display: inline-block; */
+    position: relative;
+    margin: auto;
+    width: 150%;
+    max-width: 70%;
+    height: 48px;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+}
+
+@media screen and (max-width: 752px)
+{
+.findjobs {
+    font-size: 110%; 
+    font-weight: bold;
+    margin-left: 20%;
+    padding: 5px;
+}
+
+.search-bar {
+    /* display: inline-block; */
+    position: relative;
+    margin: auto;
+    width: 150%;
+    max-width: 60%;
+    height: 48px;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+}
+
+@media screen and (max-width: 560px)
+{
+.findjobs {
+    font-size: 110%; 
+    font-weight: bold;
+    margin-left: 20%;
+    padding: 5px;
+    text-align: center;
+}
+
+.search-bar {
+    /* display: inline-block; */
+    position: relative;
+    margin: auto;
+    width: 150%;
+    max-width: 90%;
+    height: 48px;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+}
+
+
+
+input {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 350px;
+    height: 40px;
+    left: 180px;
+    margin: 4px 0;
+    border: 0;
+    border-radius: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* body */
+
+#job-openings {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #efefef;
+
+}
+
+.container-custom {
+    margin: 50px 100px 50px;
+}
+
+.carousel {
+    margin: 50px 0px 50px;
+}
+
+.carousel-item {
+    padding: 2% 5%;
+	overflow: hidden;
+    min-height: 290px;
+}
+
+.card {
+    margin: auto;
+    
+}
+
+.jobs-card-img {
+    height: 255px;
+}
+
+.jobopen {
+    margin: 30px 0px 30px;
+}
+
+.card-title {
+    text-align: center;
+
+}
+
+.card-text {
+    text-align: center;
+
+}
+.btn-danger {
+    width: 70%;
+    height: 70%;
+    margin: 0px 35px 0px;
+}
+
+#founder {
+    padding: 100px 0px 100px;
+}
+
+#deepanshu {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.testimonials {
+    margin: 50px auto;
+}
+
+/* .testimonials h1 {
+    text-align: center;
+    font-weight: bold;
+    color: #fc0505;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.testimonials h1::after {
+    content: '';
+    background: #fc0505;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.testimonials .row {
+    margin-top: 30px;
+
+}
+
+.col-md-4 {
+    margin: 40px auto;
+}
+
+.profile {
+    padding: 70px 10px 10px;
+    background-color: #efefef;
+
+} */
+
+
+.item {
+    padding: 7% 15%;
+    color: #fc0505;
+	font-size: 14px;
+    text-align: center;
+	overflow: hidden;
+    min-height: 290px;
+}
+#testimonials{
+  text-align: center;
+  background-color: #efefef;
+  color: #fff;
+}
+h2{
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel {
+	margin: 50px auto;
+	padding: 0 70px;
+}
+
+.carousel .item .img-box {
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	padding: 2px;
+	border: 1px solid rgb(2, 0, 0);
+	border-radius: 50%;
+}
+.carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+.carousel .testimonial {
+	padding: 10px 0 10px;
+    font-size: 150%;
+}
+.carousel .overview {	
+	font-style: italic;
+    margin: 10px auto;
+    font-size: 175%;
+}
