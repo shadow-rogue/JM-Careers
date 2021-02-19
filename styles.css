@@ -33,10 +33,9 @@ input {
   font-size: 16px;
   font-weight: 400;
 }
+
 .container {
   margin: 50px 200px 50px;
-.container-custom {
-    margin: 50px 100px 50px;
 }
 
 .carousel {
@@ -44,35 +43,12 @@ input {
 }
 
 .card {
-    margin: auto;    
 }
 
 .jobopen {
-    margin: 30px 0px 30px;
+  margin: 30px 40px 30px;
 }
 
-.card-title {
-    text-align: center;
-
-}
-
-.card-text {
-    text-align: center;
-
-}
-.btn {
-    margin: 0px 70px 0px;
-}
-
-#founder {
-    padding: 100px 0px 100px;
-}
-
-#deepanshu {
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
-}
 /*  style for the footer */
 
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,700");
@@ -90,65 +66,32 @@ footer {
   }
 }
 
-.footer-distributed {
+.footer-main {
   background-color: #26272b;
   box-sizing: border-box;
   width: 100%;
-  /* text-align: right; */
   font: bold 16px sans-serif;
-  padding: 20px 50px 60px 50px;
-  margin-top: 80px;
+  padding: 20px 50px 20px 50px;
+  margin: 0%;
 }
-
-.footer-distributed .footer-left,
-.footer-distributed .footer-center,
-.footer-distributed .footer-right {
-  display: inline-block;
-  vertical-align: top;
-}
-
-/* Footer left */
-
-.footer-distributed .footer-left {
-  width: 40%;
-  margin-right: 30px;
-  text-align: right;
-}
-
-.footer-distributed h3 {
-  color: #5c5a5a;
-  font: normal 36px "Cookie", cursive;
-  margin: 0;
-}
-
-/* The company logo */
-
-.footer-distributed .footer-left img {
-  width: 16%;
-}
-
-.footer-distributed h3 span {
-  color: #fa0909;
-}
-
-/* Footer links */
-
-.footer-distributed .footer-company-name {
+.footer-main .footer-content {
   color: #8f9296;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: normal;
+  text-align: center;
+}
+a {
+  color: #8f9296;
+}
+.detail {
+  display: flex;
+  justify-content: center;
+  line-height: 3;
   margin: 0;
+  font-size: 18px;
 }
 
-/* Footer Center */
-
-.footer-distributed .footer-center {
-  width: 50%;
-  text-align: left;
-  margin-left: 30px;
-}
-
-.footer-distributed .footer-center i {
+.footer-main .footer-content i {
   background-color: #33383b;
   color: #ffffff;
   font-size: 25px;
@@ -161,59 +104,23 @@ footer {
   vertical-align: middle;
 }
 
-.footer-distributed .footer-center i.fa-envelope {
+.footer-main i.fa-envelope {
   font-size: 17px;
   line-height: 38px;
 }
 
-.footer-distributed .footer-center p {
+.footer-icons a {
   display: inline-block;
-  color: #8f9296;
-  vertical-align: middle;
-  margin: 0;
-}
-
-.footer-distributed .footer-center p span {
-  display: block;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 2;
-}
-
-.footer-distributed .footer-center p a {
-  color: #ca0c0c;
-  text-decoration: none;
-}
-
-/* Footer Right */
-
-.footer-distributed .footer-right {
-  width: 100%;
-  text-align: center;
-  margin-bottom: 30px;
-}
-.footer-distributed .footer-icons a {
-  display: inline-block;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   cursor: pointer;
-  background-color: #33383b;
+  background-color: #484b4d;
   border-radius: 50%;
-
-  font-size: 36px;
+  font-size: 30px;
   color: #ffffff;
   text-align: center;
-  line-height: 60px;
-
-  margin-right: 40px;
-  margin-bottom: 10px;
-}
-
-.footer-icons a:active,
-.footer-icons a:focus,
-.footer-icons a:hover {
-  color: #fff;
-  background-color: #29aafe;
+  line-height: 50px;
+  margin: 20px 20px;
 }
 .footer-icons a.facebook:hover {
   background-color: #3b5998;
@@ -237,20 +144,23 @@ footer {
 .footer-icons a.google:hover {
   background-color: #4285f4;
 }
+.footer-icons {
+  text-align: center;
+  background-color: #363636;
+  width: 100%;
+}
 
 /* Here is the code for Responsive Footer */
 /* You can remove below code if you don't want Footer to be responsive */
 
 @media (max-width: 880px) {
-  .footer-distributed .footer-left,
-  .footer-distributed .footer-center,
-  .footer-distributed .footer-right {
+  .footer-main .footer-content,
+  .footer-icons,
+  .detail {
     display: block;
     width: 100%;
+    font-size: 14px;
     margin-bottom: 40px;
     text-align: center;
   }
-
-  .footer-distributed .footer-center i {
-    margin-left: 0;
-  }
+}
